@@ -1,6 +1,24 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: lightgoldenrodyellow;
+}
+a {
+  color:black;
+}
+hr{
+  color:black;
+}
 .sidebar-nav {
   margin-top: 20px;
   padding: 0;
   list-style: none;
   background-color: lightgoldenrodyellow;
+}
+p{
+color:rgb(78, 78, 78)
+}
+h1{color: darkslategrey}
+li{
+color:rgb(78, 78, 78)
 }
