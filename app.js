@@ -20,7 +20,8 @@ var mongoose = require('mongoose');
 var dev_db_url='ATLAS_URI=mongodb+srv://dbUser:coolpassword@cluster0-elcct.mongodb.net/local_library?retryWrites=true&w=majority';
 var mongoDB = 'mongodb+srv://osneha:<dragon111>@cluster0-rdfwl.mongodb.net/test?retryWrites=true&w=majority';
 mongoose.connect(mongoDB, { useNewUrlParser: true });
-dev_db_url = process.env.ATLAS_URI;
+var dev_db_url = process.env.ATLAS_URI;
+var mongoDB = process.env.MONGODB_URI
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
